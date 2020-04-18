@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="F:\Project8\TrackPass\ethereum\web3.js"></script>
+        <script src="F:\Project8\TrackPass\ethereum\trackpass.js"></script>
+    <script>
+            
+
+            function handlesubmit()
+            {
+                const accounts = web3.eth.getAccounts();
+                console.log(accounts[0]);
+            }
+        </script>
+    </head>
+    <body>
+        <form onsubmit="handlesubmit()">
+           
+            <input type="submit" value="Submit">
+          </form>
+    </body>
+</html>
